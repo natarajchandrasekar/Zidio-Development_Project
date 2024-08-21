@@ -7,23 +7,23 @@ Project Overview
 In this project, I implemented four different recommendation engines using various techniques and algorithms to deliver personalized movie suggestions:
 
 Simple Recommender:
-
 Built using TMDB Vote Count and Vote Averages to create Top Movie Charts.
 The IMDB Weighted Rating System was employed to calculate ratings for sorting.
-Content-Based Recommender:
 
+Content-Based Recommender:
 Developed two content-based models:
 One based on movie overviews and taglines.
 Another based on metadata such as cast, crew, genre, and keywords.
 A filtering mechanism was added to prioritize movies with higher votes and ratings.
-Collaborative Filtering:
 
+Collaborative Filtering:
 Utilized the Surprise Library to build a collaborative filter using single value decomposition (SVD).
 Achieved a Root Mean Square Error (RMSE) of less than 1, ensuring accurate user-specific predictions.
-Hybrid Engine:
 
+Hybrid Engine:
 Combined content-based and collaborative filtering approaches.
 Provided personalized movie recommendations by calculating internal ratings for each user.
+
 Technologies Used
 Python: Programming language
 Surprise Library: For collaborative filtering and SVD
